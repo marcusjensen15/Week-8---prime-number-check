@@ -21,9 +21,6 @@ def prime_numbers
       nonprime_array.push(numerator)
     end #ends if counter
   end #ends numerator loop
-return " #{prime_array}, #{nonprime_array}"
+return " The prime numbers between 1 and #{@input} are #{prime_array}, and the nonprime numbers between 1 and #{@input} are #{nonprime_array}"
 end #ends method
 end #ends class
-
-prime = Prime.new(25)
-puts prime.prime_numbers
